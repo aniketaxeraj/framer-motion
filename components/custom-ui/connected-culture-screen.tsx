@@ -5,14 +5,7 @@ import Image from "next/image";
 import ContentLayout from "@/components/layouts/content-layout";
 import { ScreenProps } from "@/app/interfaces/screen-props.interface";
 
-const ConnectedCultureScreen = ({
-  onNext,
-  onBack,
-  isFirst,
-  isLast,
-  currentStep,
-  totalSteps,
-}: ScreenProps) => {
+const ConnectedCultureScreen = ({ onNext, onBack }: ScreenProps) => {
   return (
     <ContentLayout>
       <CardContent className="p-0 py-6">

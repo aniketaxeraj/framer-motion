@@ -6,14 +6,7 @@ import WolfLogo from "@/public/wolf.png";
 import ContentLayout from "@/components/layouts/content-layout";
 import { ScreenProps } from "@/app/interfaces/screen-props.interface";
 
-const WelcomeScreen = ({
-  onNext,
-  onBack,
-  isFirst,
-  isLast,
-  currentStep,
-  totalSteps,
-}: ScreenProps) => {
+const WelcomeScreen = ({ onNext }: ScreenProps) => {
   return (
     <ContentLayout>
       <CardContent className="p-0 py-6">

@@ -8,14 +8,7 @@ import WolfLogo from "@/public/wolf.png";
 import ContentLayout from "@/components/layouts/content-layout";
 import { ScreenProps } from "@/app/interfaces/screen-props.interface";
 
-const CreateWolfScreen = ({
-  onNext,
-  onBack,
-  isFirst,
-  isLast,
-  currentStep,
-  totalSteps,
-}: ScreenProps) => {
+const CreateWolfScreen = ({ onBack }: ScreenProps) => {
   return (
     <ContentLayout>
       <CardContent className="p-0 py-6">
@@ -41,7 +34,7 @@ const CreateWolfScreen = ({
         <div className="mt-8 space-y-6">
           <div className="space-y-1">
             <h2 className="text-xl font-semibold text-center">
-              Let's name your IVY WOLF
+              Let&apos;s name your IVY WOLF
             </h2>
             <p className="text-sm text-gray-500 text-center">
               You can always change this later.
@@ -61,7 +54,7 @@ const CreateWolfScreen = ({
               className="border-gray-300 rounded-sm w-6 h-6 mt-0.5"
             />
             <label htmlFor="terms" className="text-sm font-semibold">
-              I agree to Ivy Wolf's Privacy Policy and T&Cs
+              I agree to Ivy Wolf&apos;s Privacy Policy and T&Cs
             </label>
           </div>
 
